@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.card {
+    background-color: #white;
+    max-width: 20%;
+    padding: 20px;
+    box-shadow: 1px 2px 11px 0px #dfdcdc;
+    border-radius: 10px;
+}
+
+.card .display {
+    background-color: #353631;
+    padding: 0px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .display #displayNumber {
+    float: right;
+    color: #fffffc;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.button {
+    display: grid;
+    padding: 12.3px;
+    border: 1px solid;
+    width: 15%;
+    height: 35px;
+    background-color: #d6d7d2;
+    align-items: center;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.negative {
+    background-color: #f4a805;
+}
+
+.operator {
+    background-color: #f4a805;
+}
+
+.clear {
+    border-bottom-left-radius: 10px;
+}
+
+.equals {
+    width: 40%;
+    background-color: #f4a805;
+    border-bottom-right-radius: 10px;
+}
